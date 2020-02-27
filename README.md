@@ -1,2 +1,7 @@
-docker pull xtechcloud/omo-leanote
-docker run --restart=always --name omo-leanote -p 9000:9000 -d omo-leanote
+# Usage
+
+`leanote 2.6.1`
+
+```bash
+~# docker run --restart=always --name leanote -p 9000:9000 -v /data/leanote:/omo/data -d xtech-cloud/omo-leanote
+```
